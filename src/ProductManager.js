@@ -87,4 +87,7 @@ class ProductManager {
   
 }
 
-export default ProductManager; 
+const manager = new ProductManager()
+manager.getProductById(1)
+
+module.exports = ProductManager; 
